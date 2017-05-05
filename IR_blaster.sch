@@ -15774,7 +15774,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="5V5" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="R1P" library="resistor" deviceset="R-EU_" device="0207/7"/>
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C3P" library="resistor" deviceset="CPOL-EU" device="E5-13" value="3300u"/>
+<part name="C3P" library="resistor" deviceset="CPOL-EU" device="E5-8.5" value="470u"/>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C1N" library="resistor" deviceset="C-EU" device="025-025X050" value="100n"/>
 <part name="UC" library="Atmel by Element14 (batch 1)" deviceset="ATMEGA328P-PU" device="" value="ATmega328"/>
@@ -15830,7 +15830,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND20" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND21" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND22" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C4P" library="resistor" deviceset="CPOL-EU" device="E5-13" value="3300u"/>
+<part name="C4P" library="resistor" deviceset="CPOL-EU" device="E5-8.5" value="470u"/>
 <part name="R1BATT" library="resistor" deviceset="R-EU_" device="0207/7" value="20k"/>
 <part name="R2BATT" library="resistor" deviceset="R-EU_" device="0207/7" value="10k"/>
 <part name="GND23" library="SparkFun-Aesthetics" deviceset="GND" device=""/>

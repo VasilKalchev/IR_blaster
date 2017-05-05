@@ -1560,26 +1560,26 @@ grid 5 mm, outline 2.5 x 7.5 mm</description>
 <text x="-3.429" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.429" y="-2.794" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="E5-13">
+<package name="E5-8,5">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
-grid 5.08 mm, diameter 13 mm</description>
+grid 5.08 mm, diameter 8.5 mm</description>
 <wire x1="-1.143" y1="0" x2="-0.889" y2="0" width="0.1524" layer="21"/>
-<wire x1="-0.889" y1="0" x2="-0.889" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-0.889" y1="-1.27" x2="-0.254" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-0.254" y1="-1.27" x2="-0.254" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-0.254" y1="1.27" x2="-0.889" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-0.889" y1="1.27" x2="-0.889" y2="0" width="0.1524" layer="21"/>
+<wire x1="-0.889" y1="0" x2="-0.889" y2="-1.143" width="0.1524" layer="21"/>
+<wire x1="-0.889" y1="-1.143" x2="-0.254" y2="-1.143" width="0.1524" layer="21"/>
+<wire x1="-0.254" y1="-1.143" x2="-0.254" y2="1.143" width="0.1524" layer="21"/>
+<wire x1="-0.254" y1="1.143" x2="-0.889" y2="1.143" width="0.1524" layer="21"/>
+<wire x1="-0.889" y1="1.143" x2="-0.889" y2="0" width="0.1524" layer="21"/>
 <wire x1="0.635" y1="0" x2="1.143" y2="0" width="0.1524" layer="21"/>
-<wire x1="-5.715" y1="0" x2="-4.445" y2="0" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-0.635" x2="-5.08" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="0" x2="1.524" y2="0" width="0.1524" layer="51"/>
+<wire x1="-3.302" y1="2.032" x2="-3.302" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-3.683" y1="1.651" x2="-2.921" y2="1.651" width="0.1524" layer="21"/>
+<wire x1="1.143" y1="0" x2="1.651" y2="0" width="0.1524" layer="51"/>
 <wire x1="-1.651" y1="0" x2="-1.143" y2="0" width="0.1524" layer="51"/>
-<circle x="0" y="0" radius="6.985" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="4.445" width="0.1524" layer="21"/>
 <pad name="+" x="-2.54" y="0" drill="1.016" diameter="2.54"/>
 <pad name="-" x="2.54" y="0" drill="1.016" diameter="2.54" shape="octagon"/>
-<text x="6.3754" y="4.1148" size="1.778" layer="25" ratio="10">&gt;NAME</text>
-<text x="-4.572" y="-3.937" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="0.254" y1="-1.27" x2="0.889" y2="1.27" layer="21"/>
+<text x="4.1402" y="2.286" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.5146" y="-3.0226" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="0.254" y1="-1.143" x2="0.889" y2="1.143" layer="21"/>
 </package>
 <package name="0207/7">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
@@ -2376,7 +2376,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="85.725" y="66.802" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="83.8962" y="65.151" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="C3P" library="resistor" package="E5-13" value="3300u" x="56.515" y="74.295" smashed="yes">
+<element name="C3P" library="resistor" package="E5-8,5" value="470u" x="56.515" y="74.295" smashed="yes">
 <attribute name="NAME" x="49.8602" y="76.8604" size="1.778" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="51.943" y="70.358" size="1.778" layer="27" ratio="10"/>
 </element>
@@ -2515,7 +2515,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="12.954" y="51.689" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="12.7" y="56.769" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="C4P" library="resistor" package="E5-13" value="3300u" x="56.515" y="59.69" smashed="yes">
+<element name="C4P" library="resistor" package="E5-8,5" value="470u" x="56.515" y="59.69" smashed="yes">
 <attribute name="NAME" x="50.4952" y="64.1604" size="1.778" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="51.943" y="55.753" size="1.778" layer="27" ratio="10"/>
 </element>
